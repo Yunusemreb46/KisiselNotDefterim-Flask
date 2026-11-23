@@ -49,7 +49,7 @@ Depo boyutunu küçük ve temiz tutmak amacıyla proje arşivinde geçici derlem
 
 ### Aşama 2: Çalışma Ortamının Visual Studio Code ile Açılması
 1. **Visual Studio Code** uygulamasını başlatın.
-2. Üst menüden **File > Open Folder...** (`Ctrl + K Ctrl + O`) yolunu izleyerek arşivden çıkardığınız **`KisiselNotDefterim`** proje klasörünü seçin.
+2. Üst menüden **File > Open Folder...**  yolunu izleyerek arşivden çıkardığınız **`KisiselNotDefterim`** proje klasörünü seçin.
 3. Sol taraftaki **Explorer** (Dosya Gezgini) panelinde temel kaynak dosyaların (`KisiselNotDefterim.csproj`, `Program.cs`, `MainWindow.axaml`, `MainWindow.axaml.cs`) yüklendiğini doğrulayın.
 
 ### Aşama 3: NuGet Paketlerinin Geri Yüklenmesi (`dotnet restore`)
