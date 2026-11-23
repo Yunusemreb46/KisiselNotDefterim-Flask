@@ -1,7 +1,3 @@
-# KisiselNotDefterim-Flask
-C# (.NET 10) ve Avalonia UI kullanılarak geliştirilmiş; metin ve kod notları oluşturmayı, düzenlemeyi, silmeyi ve bu notlara harici dosyalar ekleyip yerel JSON formatında yönetmeyi sağlayan karanlık temalı çapraz platform masaüstü not ve dosya yöneticisi.
-
-
 # Kişisel Not ve Dosya Yöneticisi (C# & Avalonia UI)
 
 **C# (.NET 10)** ve **Avalonia UI** kullanılarak geliştirilmiş; metin/kod notları oluşturmayı, düzenlemeyi, silmeyi ve bu notlara harici dosyalar (PDF, görsel, kaynak kod vb.) ekleyip yerel dosya sistemi üzerinde yönetmeyi sağlayan karanlık temalı çapraz platform masaüstü uygulamasıdır.
