@@ -97,8 +97,3 @@ Uygulama arayüzü, uzun süreli kod ve metin çalışmaları için **Karanlık 
 * **Sol Panel — Notlarım (Kayıt Yönetimi):** `Belgelerim/KisiselNotlarim` dizinindeki tüm kayıtlı `.json` not başlıklarını `ListBox` içerisinde listeler. **`+ Yeni Not`** butonu giriş alanlarını sıfırlarken, **`Seçili Notu Sil`** butonu aktif notu hem listeden hem de diskten kalıcı olarak kaldırır.
 * **Orta Panel — Başlık ve Not/Kod Editörü:** Üst kısımda dosya adını belirleyen başlık giriş kutusu (`BaslikKutusu`) ve **`Kaydet`** butonu bulunur. Alt kısımda ise kod bloklarının okunabilirliğini koruyan sabit genişlikli (`Consolas`) çok satırlı metin alanı (`IcerikKutusu`) yer alır.
 * **Sağ Panel — Ekli Dosyalar (Dosya Yöneticisi):** Aktif nota bağlanan harici dosyaları listeler. **`+ Dosya Ekle`** ile seçilen dosyalar `Ekler` klasörüne kopyalanır; **`Seçili Dosyayı Aç`** dosyayı sistemin varsayılan programıyla açar; **`Seçili Dosyayı Sil`** ise dosyayı hem `Ekler` klasöründen hem de notun JSON kaydından siler.
-### Aşama 3: NuGet Paketlerinin Geri Yüklenmesi (`dotnet restore`)
-1. Visual Studio Code üst menüsünden **Terminal > New Terminal** (`Ctrl + "`) seçeneği ile dahili terminali açın.
-2. Açılan terminal satırına aşağıdaki komutu yazıp `Enter` tuşuna basarak Avalonia UI kütüphanelerini projeye indirin:
-   ```bash
-   dotnet restore
